@@ -56,7 +56,7 @@ _"Target class [FundamentalPatternsController] does not exist."_
 Add route in `routes/web.php`:
 
 ```php
-use App\Http\Controllers;
+use App\Http\Controllers\FundamentalPatternsController;
 
 Route::get('/', [FundamentalPatternsController::class, 'PropertyContainer'])->name('dump');
 ```
